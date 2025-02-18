@@ -1,0 +1,32 @@
+.news {
+    background: #ad998b;
+    width: 44vw;
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+    height: 85vh;
+    margin-right: 24px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        h6 {
+            margin: 0 0 24px;
+            font-size: 14px;
+        }
+
+        li {
+            border: 2px solid gray;
+            padding: 8px;
+            background: bisque;
+            border-radius: 8px;
+            margin-bottom: 14px;
+        }
+    }
+}
+
+.wrapperMain {
+    display: flex;
+}
